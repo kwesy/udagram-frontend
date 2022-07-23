@@ -20,4 +20,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push graves001/udagram-frontend:v1
+  - docker push graves001/udagram-frontend:v2
